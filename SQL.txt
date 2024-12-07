@@ -1,0 +1,101 @@
+SQL
+
+* Showing Databases
+  To list available databases:
+  show databases;
+
+* The general command for creating a database:
+  CREATE DATABASE <database_name>;
+  A specific example:
+  CREATE DATABASE soap_store;
+
+* To drop a database:
+  DROP DATABASE <database-name>;
+  To use a database:
+  USE <database-name>;
+
+* Create table cat (
+  name varchar(50), breed varchar(150), age int); 
+
+* Show tables;
+  Show column cats;
+  desc cats;
+
+* drop table <table_name>;
+  drop table cats;
+
+* insert into cats (name, age) values ('blue', 5);
+
+*Select from cats;
+
+* Multi insert
+Create table flowers (Name varchar(90), Quantity int );
+insert into flowers (name, quantity) values ("rose", 2,"Mogra",3 "Lily", 5):
+
+*Using NOT NULL:
+
+CREATE TABLE cats2 (
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
+
+*Define a table with a DEFAULT name specified:
+
+CREATE TABLE cats3  (    
+    name VARCHAR(20) DEFAULT 'no name provided',    
+    age INT DEFAULT 99  
+);
+Notice the change when you describe the table:
+
+DESC cats3;
+
+Insert a cat without a name:
+
+INSERT INTO cats3(age) VALUES(13);
+
+Or a nameless, ageless cat:
+
+INSERT INTO cats3() VALUES();
+
+Combine NOT NULL and DEFAULT:
+
+CREATE TABLE cats4  (    
+    name VARCHAR(20) NOT NULL DEFAULT 'unnamed',    
+    age INT NOT NULL DEFAULT 99 
+);
+
+* Primary key unique identifier
+  One way of specifying a PRIMARY KEY
+
+CREATE TABLE unique_cats (
+	cat_id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
+
+
+-- Another option:
+
+
+
+CREATE TABLE unique_cats2 (
+	cat_id INT,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    PRIMARY KEY (cat_id)
+);
+
+*AUTO_INCREMENT
+
+CREATE TABLE unique_cats3 (
+    cat_id INT AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    PRIMARY KEY (cat_id)
+);
+
+*SELECT CONCAT('pi', 'ckle');
+ 
+SELECT CONCAT(author_fname,' ', author_lname) AS author_name FROM books;
+ 
+SELECT CONCAT_WS('-',title, author_fname, author_lname) FROM books;

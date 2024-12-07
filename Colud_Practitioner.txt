@@ -1,0 +1,34 @@
+Very importance :
+
+Benefits of cloud computing
+
+High availability : up and running cloud service
+
+Scalability : Horizontal scaling : adding more vm(ram)
+ 
+Vertical scaling: multiple for current ram 
+
+Elasticity : cloud automatically scales your resource based on no of request coming.
+
+Agility : Speed and flexibility during processing or service
+
+Disaster recovery : cloud provides ensure that cloud is fault talerant
+
+capital expenditure : we need to buy land computer server and there will be maintances nd clearining charges taxes are include
+
+operational expenditure : everything on cloud just need to buy a service other all expense cover by cloud like maintances and clearing land is free
+save and money no electronic waste no need to buy properties
+
+types of cloud service models :
+Iaas : A whole virtualized infra is provided by azure
+rent a vm or storage
+cloud provide vm
+for testing appln
+appln data storage
+runtime
+mw
+o/s
+
+Paas : platform is provided by azure appln & data storage manage by u 
+
+Saas : by manage cloud 

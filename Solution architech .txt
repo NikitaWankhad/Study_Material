@@ -1,0 +1,45 @@
+Solution architech :
+
+1.
+VPC 
+EC2
+EL
+ASG
+SG/NCL
+
+2.
+Storage
+S3
+EBS
+EFS
+FXs
+RDS
+How to configure and access private subnet
+
+3.
+Serverless
+DynomaDB
+Lambda
+API
+DMS
+SCT
+Snow familes
+Route 53
+
+4.
+DynomoDB
+IAM
+Security
+Congnito
+WAP
+SCP
+
+5.
+Streaming
+Kiness
+
+Activie activie ---Regions
+deploying in multiple az--high availablity
+Disaster recovey--Multiple regions
+
+Open source container service--EKS

@@ -1,0 +1,69 @@
+
+Hello thanks for the opportunity my name is nikita wankhade iam an engineering guduated in a field electorinc & telecommuni
+I have approx. 3 year experience delivery reliability engineer as well as product support.
+in my current product iam responsibiable seamly delivery a new package to a staging and production environmation along with maintain and supporting the application and to ensure smooth end user experierence. i have also upskill myself with couple certifications one is azure 900  which i have done a year back next one aws cloud pritioner which is currently iam using in my current project.
+
+So my day to day activities and reponsiblities like deploying newly created release package in staging environment also delivery to production environment and ensuring that the after deployment everything working Smoothly with those new features as well.
+
+I also need to troubleshoot if there is any issue in the ongoing after the deployment.
+
+if any any customer is like having issue with the particular menu or like he is not able to see a menu as menu dre 
+My role was to ensure the tickets which are getting created to solve them by checking what errors they're getting. I need to check them from the back end side while making the request to the back end. What errors they're getting and see if I can find the.
+
+
+Role & Responsibilities :
+
+
+
+ Proficiently monitored and troubleshooted application issues using New Relic and New Relic logs, ensuring seamless performance and availability.
+ Actively participated in Deployment, Patching, and Fix activities as part of Release Management, ensuring smooth software updates and improvements.
+ Continuous proactive monitoring with New Relic & provide initial investigation for production issues.
+ Preparing Weekly and Monthly production health and performance report.
+ Skilfully maintained and updated documentation on Share point/Confluence, ensuring easy access to essential information for the team.
+ Demonstrated a swift response to outages, following escalation procedures, and conducting root-cause analyses for timely issue resolution.
+ Prepared and delivered various reports to internal and external clients, providing valuable insights into system performance and issue resolution.
+ Successfully interacted with global customers and users through the Service Desk, addressing their concerns and ensuring high levels of customer    satisfaction.
+ working on user management requests on different payment provider consoles such as Adyen and Sift
+ working on Incident, Major Incident, Problem and Change management and skill of handling the task within SLA guidelines.
+ Demonstrated expertise in continuous monitoring of various tools and applications to proactively address end-user issues and ensure optimal system performance.
+ Handling the issues of payment provider and payment gateways for cashless transactions and experience of working on user management requests on different payment provider consoles such as Adyen and Sift
+  
+  
+
+What level of skills development is being demonstrated? 
+
+While working on the Project I got tremendous number of skills in my arsenal below are few listed :-
+
+ I have Completed the Training for AWS Certified Cloud Practitioner, Learned & gained knowledge on AWS services: EC2, S3, VPC, Route 53, RDS, EC2, DynamoDB (NoSQL), Lambda, logging/CloudWatch, IAM, Certificate Manager, ELB, EBS, ECS, CloudFront/WAF, SQS, SNS, SES.
+ Designed high availability environment for Application servers and database servers on EC2 by using ELB, Auto-scaling and Route 53.   
+
+ Hands-on Introduction to Linux Commands and Shell Scripting (Coursera)
+
+ I have acquired the skills for DataDog by completing below trainings & Certificates: 
+   *Introduction to APM in DataDog
+   *Datadog 101 Site Reliability Engineer
+   *Introduction to Log Management.
+
+ Explored DRE related work Understood and Modified code from code repository by cloning, Pushing and by deploying.
+
+ Enrolled in the Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert (Udemy)
+Working on my personal project stored procedures, joins, views, queries and different SQL
+commands like DDL, DML, DQL, DCL, TCL and troubleshooting of network issues with
+commands like Ipconfig, IP, traceroute, ping, netstat, dig, hostname, host, curl.
+
+Explored COE related work of creating dashboards on New Relic for market Campaigns and Promotions and alerts, working on NRQL queries, creating dashboards, synthetic monitors.
+
+What is the level of contribution this year?
+
+ Quick Response to emails that need prior attention and conducting working sessions to prevent SLA for long-pending issues that need investigation from    the product teams.
+ Making KT plan for New Joiner as Senior resource.
+ Have resolved many incidents and RITM's.       
+ Never had any reports of SLA breach caused from my end.
+ I am an individual performer and took accountability for various tasks related to the team and project.
+ Initiate potential critical calls and engage required teams to resolve production issues to avoid Market initiated P1 and P2.  
+ Made Regular follow-ups on Incidents and RITMs under our assignment group and tried to maintain a better queue count.
+ Responded to issues of varying severity, including outages, with a focus on providing prompt and efficient resolution to enhance customer experience.   
+ Prioritized tasks based on business needs, ensuring timely and effective resolution of critical issues while documenting common issues for the team's reference.
+ Always Compliant with all project defined + ITIL processes related to Incident / Problem / Service Request Management
+       
+ Utilized monitoring tools to track server and network performance, proactively identifying and addressing potential issues to minimize downtime.

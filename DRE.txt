@@ -1,0 +1,20 @@
+
+node
+kubernet
+masternote workernote
+pods 
+containter
+appln
+
+isolated space owner by u vpc
+connection to ec2 thought bash and host or jump server
+ec2 start krun restart then ip will change-->elastic ip make it permanent
+
+Release package :
+
+
+Blue green development :
+
+Key : use to login in ec2
+
+EC2 : while creating ec2 need to give template in which all configuration
