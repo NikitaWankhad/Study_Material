@@ -1,0 +1,37 @@
+OSI model 
+networking : allow two hosts to share data with one another
+
+hosts must follow a set of rules
+
+Physical : data exits in the form of bits ( 0 and 1)
+transporting bits between hosts
+transmission of raw data bits over a physical medium
+l1 technologies : cables , wifi, repeaters, hubs
+
+
+data link : interacts with wire
+reliable transfer of data between two directly connected nodes, error detection, framing of data packets.
+ensure that data transferred without error with the same network
+sent bits on the wire and retrieve bits from the wire
+hop to hop delivery uses addressing scheme mac address
+switch allow to comm data to many devices
+often comm bet hosts required multiple hops
+
+network : end to end
+manages the routing of data packets betn diff networks ensuring reaching to correct destionation
+ip address allow to go data end to end 
+routers hosts
+
+Transport : service to service
+distinguish data streams
+insure that right program received right data
+it provides error recovery, data segmentation, flo control for comm bet device
+
+Session layer : manager connection betw appln
+maintaining the state and ensuring comm remains open or closed as required
+
+presentation layer :
+translate, encrypts and compresses data bet appln n transport layer
+so it can be understood by receiver
+
+Appln layer : provide the service directly to end users

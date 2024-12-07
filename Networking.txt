@@ -1,0 +1,136 @@
+Host : are any device which sends or received an traffic 
+anything that sends or received traffic over a network 
+all the devices have same rules for how they commun to the internet
+hosts are sending and receiving the data
+
+Client initiate requests, Servers respond
+Relative to specific communication
+Servers are simply computers with software installed which responds to specific requests
+
+
+IP Address : is the identity of each host.
+every single host must have an ip address
+Just like need to a number order to send and receive phone calls 
+you need a ip address in order to send or received packets on a network
+every package which is received or sent with source and destination ip address
+ip addresses are 32 bits 
+bit = 1 or 0
+represented as four octets
+breaking up the ip address into their different hierarchicy done throught the process known as subnetting
+
+Network : is what a transports traffic between hosts 
+required similar connectivity which means all device should have same ip address
+
+anytime two hosts are connected, you have a network
+logical grouping of hosts which require similar connectivity
+networks can contain other networks
+networks connect to other networks
+sometimes called sub-networks or subnets
+
+internet is a bunch of network
+
+Sending data across two device a wire is required
+
+repeater sole purpose to regenerate the signal--> this allow you to connect devices together which span greater distances
+
+hub is nothing more than a multi-port repeater
+disadvantages : if one device want to sent packet to one other package then hub simply deplicate that package and sent it out all remaining ports
+prblm : everybody received everybody else data for this bridge is introduced
+ bridge sit bet hub-connected hosts
+bridges only have two ports
+bridges learn which hosts are on each side
+
+switches are a combination of hubs and bridges 
+facilitate comm within a network
+if two devices want to speak each other switch will knows that the only ports that need to receive this traffic are the tow that are connected to those green hosts and keep that commun contained to just those ports and makes sure that comm only flows betw that relative ports
+
+Router handle the commun betwn the 2 different networks
+means 2 different devices which are belong to 2 different networks(different connectivities)
+router provides traffic controls between the networks
+routers facilitate comm bet networks
+routing is the process of moving data bet networks
+network boundary is what is meant to be the logical separation of devices
+router learn which network they are attached to meeansrouter has ip address in every network that they're attached to
+router use this route table to sent traffic out the appropriate interface
+
+gateway : each host's way out of their local network
+if host want to comm with other host within different network his knows have to go through a router and the ip address that host default store as the default gateway
+routing table : all networks a router knows about 
+
+TCP (Transmission control protocal) :
+established connect before sending
+TCP ensure that data received by the receiver in the correct format without error free and reached at correct address with correct format.
+if any data package lost or corrupted it retransmitted it.
+guaranteed delivery
+avoid the network congestion
+eg emails files
+
+UDP ( )
+Doesn't check for error nor format nor in order they were sent
+does not established connect before sending
+sends data package without checking received is ready to accept them
+there is no guarantee
+eg : online game video audio
+
+ARP : Address resolution protocol
+FTP : file transfer protocol client request a data to server in form of file
+SMTP : simple mail transfer protocol used to exchange the mails
+
+HTTP : Hyper text transfer protocol -->this protocol anytime u communicating with web server requesting web page
+
+TLS : Transport layer security
+established security ternal between client and server
+
+one hosts must ip address of other host in order to communicate
+
+While client server want to communicate with smtp sever or web server which don't have ip address dns domain name system convert this domain name to ip address
+
+site.com-->74.208.5.20 
+
+every host needs four items for internet connectivity
+IP addrss : host's identity on the internet
+subnet mask : size of the hots's network
+default gateway : router's IP address
+DNS Server IP : translate domain names to IPS
+
+OSI model 
+networking : allow two hosts to share data with one another
+
+hosts must follow a set of rules
+
+Physical : data exits in the form of bits ( 0 and 1)
+transporting bits between hosts
+transmission of raw data bits over a physical medium
+l1 technologies : cables , wifi, repeaters, hubs
+
+
+data link : interacts with wire
+reliable transfer of data between two directly connected nodes, error detection, framing of data packets.
+ensure that data transferred without error with the same network
+sent bits on the wire and retrieve bits from the wire
+hop to hop delivery uses addressing scheme mac address
+switch allow to comm data to many devices
+often comm bet hosts required multiple hops
+
+network : end to end
+manages the routing of data packets betn diff networks ensuring reaching to correct destionation
+ip address allow to go data end to end 
+routers hosts
+
+Transport : service to service
+distinguish data streams
+insure that right program received right data
+it provides error recovery, data segmentation, flo control for comm bet device
+
+Session layer : manager connection betw appln
+maintaining the state and ensuring comm remains open or closed as required
+
+presentation layer :
+translate, encrypts and compresses data bet appln n transport layer
+so it can be understood by receiver
+
+Appln layer : provide the service directly to end users
+
+
+
+

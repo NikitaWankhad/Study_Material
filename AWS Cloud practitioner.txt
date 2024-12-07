@@ -1,0 +1,139 @@
+AWS Cloud practitioner
+
+cloud computing is the on demand delivery of IT resources over the internet with pay-as-you-go pricing.
+
+Amazon EC2 getting started
+*AWS build datacenters.
+*AWS secure datacenters.
+*AWS purchased servers.
+*AWS installed servers.
+*the servers are online and ready to use
+pay for only running the instances
+
+EC2 configurations
+Windows
+Linux
+internal business app
+web apps
+Datacentres
+third party software
+
+EC2 types
+General purpose
+storage
+cashier memory
+customer compute 
+latte art employee accelerated 
+
+EC2 pricing modes
+On-demand -->are ideal for short-term, irregular workloads that cannot be interrupted. you pay for only the compute time you use.
+
+Saving plans--> you make an hourly spend commitment to an instance family and Region for a 1-year or 3-year term.
+Reserved ---> standard reserved : provides a discount when you specify a number of EC2 instances to run a specific OS, instance family and size, and tenancy in one Region.
+
+Convertible : If you need to run your EC2 instances in different Availability Zones or different instance types, then Convertible Reserved Instances might be right for you
+
+sport instance---> 90% discount 
+
+dedicated Hosts-->Dedicated Hosts are physical servers with Amazon EC2 instance capacity that is fully dedicated to your use. 
+
+
+Scale in :  By adding Amazon EC2 Auto Scaling to an application, you can add new instances to the application when necessary and terminate them when no longer needed.
+
+
+Directing traffic with elastic load balancer: application that takes the request and routes them to the instances to be processed. 
+
+SQS 
+Sent meg
+Stored msg
+Received msg 
+between software components at any volume
+
+SNS : sent out the notification to end user that sub/pub services
+
+Host traditional appln and full access to the os-->EC2
+
+Short running appln service oriented appln event driven appln no provisioning or managing server--> lambda
+
+run docker container-based workloads on aws --> amazon ECS or EKS
+
+Severless --->fargate
+
+
+compliance
+promity
+availability
+pricing
+
+Regions are geographically isolated areas.
+Regions contain availability zones.
+Edge locations run amazon cloudfront.
+
+
+Aws Management console is the browse based 
+Test env
+viewing bills
+view monitoring 
+work with non technical resources
+
+AWS software development kits interact with aws resources through various programming languages
+
+AWS Elastic Beanstalk : you provide code and configuration setting, and elastic beanstalk deploys the resources necessary to perform adjust capacity, load balancing, automatic scaling and appln health monitoring.
+
+AWS CloudFormation : you can treat your infrastructure as code. this means that you can build an env by writing lines of code instead of using the aws management console to individually provision resources.
+
+The AWS Command Line Interface (AWS CLI) is used to automate actions for AWS services and applications through scripts.
+The AWS Management Console includes wizards and workflows that you can use to complete tasks in AWS services.
+
+Extend AWS infrastructure and services to different locations including your on-premises data center.--->outposts
+
+EBS : if you stop or terminate an amazon EC2 instance, all the data on the attached EBS volume remains available.
+
+
+Amazon s3 standard infrequent access class : access less frequently but required rapid access when needed (long term storage)
+
+S3 one zone-infrequent access : stores data in a single availability zone
+has a lower storage price than amazon s3 standard-IA
+
+Amazon s3 glacier flexible retrieval : we need to retain data or several years for auditing purpose and we don't need it to be retrieved very rapidly
+
+s3 glacier instant retrieval : archived data that required immediate access 
+Can retrieve object within a few milliseconds 
+
+S3 glacier flexible retrieval : low-cost storage designed for data archiving 
+able to retrieve objects within a few minutes to hours
+
+S3 Glacier Deep Archive : Lowest-cost object storage class ideal for archiving 
+able to retrieve object within 12 hours
+
+S3 outposts : creates s3 buckets on amazon s3 outposts 
+makes it easier to retrieve, store and access data on aws outposts
+
+IAM : Authentication and authorization is managed my iam
+
+KMS : you can encrypt all stored data using key management service
+
+ACM : digital certificate to ensure your communication.
+
+WAF : take care of all attacks, SQL injection, DDos attacks
+
+CloudFormation : write template yaml , json and create the infrastructure.
+
+Code commit : code repository like a git code repository
+
+Code build : take code source and build it.
+
+Code deploy : deploy the code
+
+Code pipeline : 
+
+Code star : project management issue tracking 
+
+Access key :  are combination of access key ID  and secrete access key are used make programmatic calls to aws using the api.
+
+Console password : signing user into aws management console.
+ 
+server certificate : to athecate some aws service using http.
+
+key pair : authenticating to amazon ec2 instance. 
+

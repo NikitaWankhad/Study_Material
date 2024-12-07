@@ -1,0 +1,58 @@
+Linux command
+
+PWd : Present working directory
+
+How to display ur current login user
+
+short cut to clear ctrl+L
+
+how to read a file-->Cat
+how to read for file and search for word :
+less and file name
+line bye line read--> more file name
+create file--> touch name 
+remove/delete file--> rm filename
+type something in file-->I
+then esc
+save and quite ---> :wq
+edit the file using --->nano file name
+to create new director/folder--> mkdir foldername
+
+how to change path/move to another folder-->cd
+
+to back to previous folder--> cd ..
+2 location back cd ../..
+
+absoulte path--> actual path starting path root folder se represent--> given starting root to ur folder..cd root/folder
+
+relative path--> directly given path ur folder
+
+copy the contain from file to another--> cp filename another file name
+
+to read top 5 line in file--> head -5 filename
+
+bottom 5line--> tail -5 filename
+
+search a word in display matching contain in linux--> grap word file name
+
+to find file in linux--> find ./ -name filename
+to find history -->history
+to find particular command--> history grep that word
+to know size of file--> ls -lh
+how to use Linux calculater-->bc
+
+to compress file --> gzip -k filemame, decompress-->gunzip -k filename
+
+to check your appln install or not on linux--> rpm -qa | grep appname
+to install appln on linux--> sudo yum install appname
+
+how to list available package on liunx-->yum /dnf list available
+
+to check the status of appln--> systemctl status applname
+
+print the particular line from csv file--> awk -f {print $2} filename
+
+permissions of a file
+rwx-->read write excutiable -->user
+rw- --->read write--->group
+r-- ---> read-->other
