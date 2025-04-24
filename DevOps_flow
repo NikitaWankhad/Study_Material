@@ -1,0 +1,15 @@
+
+Website for advance booking for books.
+Developer--->will write the code.
+Build--->to run it other system or server must be turn into the app.exe or /.bin file using maven tool so it can exectuable.
+Deploy--> then it ready to deployed to production server, the ur website is ready
+now user visiting ur website and requesting for  new features so u have hired so engineer to work on.
+all the engineer and developerworking together for addtional features on same based source code that would reflect to confilict.
+git allow all to work on same code at same time  and help in collabration
+git is command line tool collabrated with developer.
+github is publicly accessable repository based on git.
+jenkins--> automated the build, test and deployment process called contionus delivery and merge the repo which was worked by 
+team called contionus integration.
+docker--> help to run the code in any env or any system with all depencies and configratution.
+K8s-->
+terraform --> worked as infrastrature as code, automated provision of resources and configration of server.
