@@ -1,0 +1,42 @@
+Kernal : is the heart of linux.
+is the terminal, used to communicated between hardware and software.
+Shell : to communicated with kernal.
+Bootloder : is the process to restart all the files.
+
+Commands :
+Top : CPU utilization processor
+df -h : disk size
+free -h : ram (memory) usage
+/ : root floder
+state in processor in linux :
+running
+sleeping
+stopped
+killed(terminated)
+zomble
+ls : List the files
+ls -l : list the files with details
+cd : change directory
+pwd : print working directory
+rm : remove the file
+rmdir : remove the directory
+rm -r : remove recursive file
+cat : print the contain of file
+echo : print the sentence
+echo "Hello" > filename : write the output in file
+touch : create a file
+zcat : read the contain of compress file
+head : to print 1st 10 line
+tail : to print last line
+tail -f : monitor the file
+less : pages dekhne hai to (less)
+more : to print the pages 
+CP : copy the file
+mv : rename the file/ move the file
+wc : word count
+hard link : shortlink if main file delete , shortlink will work.
+soft link :
+
+
+
+
