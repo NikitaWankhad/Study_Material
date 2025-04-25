@@ -1,0 +1,24 @@
+/ : root floder
+ls : List the files
+ls -l : list the files with details
+ls -la : list the hidden file with details
+ls -ltr : shows up as the last file as it's been most recently modified.
+stat file1 : Access, Modify, and Change timestamps
+cd : change directory
+pwd : print working directory
+rm : remove the file
+rmdir : remove the directory
+rm -r : remove recursive file
+cat : print the contain of file
+echo : print the sentence
+echo "Hello" > filename : write the output in file
+touch : create a file
+zcat : read the contain of compress file
+head : to print 1st 10 line
+tail : to print last line
+tail -f : monitor the file
+less : pages dekhne hai to (less)
+more : to print the pages 
+CP : copy the file
+mv : rename the file/ move the file
+wc : word count
