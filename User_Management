@@ -1,0 +1,9 @@
+Create user and group :
+Create new group -->sudo addgroup sre
+add user in existing group -->sudo usermod -aG sre pslearner
+creating user account --> sudo adduser --disabled-password --gecos "New SRE" jamie
+Manage Passwords :
+create user : sudo adduser --disabled-password --gecos "" terraform
+sudo passwd terraform -->type password
+su - terraform
+To change the password -->passwd
