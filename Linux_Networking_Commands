@@ -1,0 +1,14 @@
+ping : to check software or server is running or not connection is working fine or not
+netstat : to check active internet connection.
+tcp , local addres, state, bus sockets
+ifconfig : network interface 
+traceroute : route of website ip hopping from source to destination path
+mtr : png + traceroute my trace route
+nslookup : which ip address active on particular website
+telnet : help to connect port of website connect http : 80 https :443
+hostname : show the ip address of server
+
+
+
+
+
