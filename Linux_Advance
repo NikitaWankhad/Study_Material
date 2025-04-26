@@ -37,6 +37,28 @@ wc : word count
 hard link : shortlink if main file delete , shortlink will work.
 soft link :
 
+linux networking :
+netstat -nltp : This displays the listening IP's and ports on your system
+
+Managing and Troubleshooting System Services and Processes :
+
+
+System command :
+uname : to know the platform e.g linux
+update : system update since when system is running
+date : system date
+whoami : system login user
+which : which software is install that location, version
+id : user id, group id
+sudo : superuser do superuser permission
+cd etc/passwd : list of user
+shutdown : shutdown system
+reboot : restart the system
+apt : appln package manager (help to install the s/w within the system or from internet)
+make a system up to date
+yum --centos dnf-- awslinux portage --gentu linux rpm --redhat
+
+
 
 
 
