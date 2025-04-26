@@ -2,8 +2,14 @@ Create user and group :
 Create new group -->sudo addgroup sre
 add user in existing group -->sudo usermod -aG sre pslearner
 creating user account --> sudo adduser --disabled-password --gecos "New SRE" jamie
+sudo adduser -m username
 Manage Passwords :
 create user : sudo adduser --disabled-password --gecos "" terraform
 sudo passwd terraform -->type password
 su - terraform
 To change the password -->passwd
+userdel username--> to delete the user
+sudo gpasswd -a jethalal devops-->to add the user in group
+for multiple user --> -m
+sudo groupdel groupname --->delete the group
+
