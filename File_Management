@@ -22,3 +22,26 @@ more : to print the pages
 CP : copy the file
 mv : rename the file/ move the file
 wc : word count
+d : directory
+rwx : read, write and execute
+0 - - -
+1 - - x
+2 - w - 
+3 - w x
+4 r - -
+5 r - x
+6 r w -
+7 r w x
+umask --> by default user permission user all, group all and other only read and execute
+chown : change ownership  
+sudo chown username filename
+chgrp : change file group 
+zip : compress the file
+zip -r ldf.zip linux_for_devops : recursively zip the floder
+unzip : unzip the file of directory
+tar -xvzf : extract varbose display infor zip specify file
+tar -cvzf : comparess 
+scp : securly copy the file from local to remote
+rsync : local se sync the file from local to remote via versa
+
+
